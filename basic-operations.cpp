@@ -1,3 +1,4 @@
+////-lGLU -lGL -lglut
 #include <iostream>
 #include <cmath>
 using namespace std; 
