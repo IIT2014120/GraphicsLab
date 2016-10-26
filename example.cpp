@@ -11,19 +11,19 @@ void display(void)
 {
     glClear(GL_COLOR_BUFFER_BIT);
 
-    Matrix triangle[3];
+    Point triangle[3];
 
-    triangle[0].init(3,1);
-    triangle[0].elementAt[0][0] = -0.5;
-    triangle[0].elementAt[1][0] = -0.5;
+    //triangle[0].init(3,1);
+    triangle[0].x = -0.5;
+    triangle[0].y = -0.5;
 
-    triangle[1].init(3,1);
-    triangle[1].elementAt[0][0] = 0.5;
-    triangle[1].elementAt[1][0] = -0.5;
+    //triangle[1].init(3,1);
+    triangle[1].x = 0.5;
+    triangle[1].y = -0.5;
     
-    triangle[2].init(3,1);
-    triangle[2].elementAt[0][0] = 0;
-    triangle[2].elementAt[1][0] = 0.5;
+    //triangle[2].init(3,1);
+    triangle[2].x = 0;
+    triangle[2].y = 0.5;
 
     double factor = 0.5;
     Matrix scaling(3,3);
